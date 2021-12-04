@@ -8,4 +8,10 @@
 
 # advent-of-code
 
-Solutions to Advent of Code
+Solutions to [Advent of Code](https://adventofcode.com)
+
+## Credits
+
+- [Logo][1] by FatCow Web Hosting
+
+[1]: https://www.iconfinder.com/icons/35698/asterisk_yellow_icon

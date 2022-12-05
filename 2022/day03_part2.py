@@ -1,5 +1,5 @@
 priorities = 0
-count = 0
+
 with open("day03_input.txt") as f:
     groups = f.readlines()
     groups = [groups[3 * i : 3 * i + 3] for i in range(0, len(groups) // 3)]

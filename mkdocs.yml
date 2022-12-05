@@ -1,0 +1,50 @@
+site_name: advent-of-code
+nav:
+  - Home: index.md
+  - 2022: 2022.md
+  - 2021: 2021.md
+theme:
+  name: material
+  favicon: https://cdn3.iconfinder.com/data/icons/fatcow/32/asterisk_yellow.png
+  logo: https://cdn3.iconfinder.com/data/icons/fatcow/32/asterisk_yellow.png
+  font:
+    text: Roboto
+  palette:
+    - scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features:
+    - header.autohide
+repo_name: coding-armadillo/advent-of-code
+repo_url: https://github.com/coding-armadillo/advent-of-code
+plugins:
+  - search
+  - tags
+  - glightbox:
+      auto_caption: True
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.tabbed:
+      alternate_style: true
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/coding-armadillo

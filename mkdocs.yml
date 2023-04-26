@@ -25,7 +25,8 @@ theme:
   features:
     - header.autohide
     - content.code.copy
-repo_name: coding-armadillo/advent-of-code
+    - navigation.top
+repo_name: advent-of-code
 repo_url: https://github.com/coding-armadillo/advent-of-code
 plugins:
   - search
@@ -48,5 +49,9 @@ markdown_extensions:
       alternate_style: true
 extra:
   social:
+    - icon: fontawesome/solid/house
+      link: https://coding-armadillo.github.io/
     - icon: fontawesome/brands/github
       link: https://github.com/coding-armadillo
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:hello.coding.armadillo@gmail.com

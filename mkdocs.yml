@@ -1,6 +1,7 @@
 site_name: advent-of-code
 nav:
   - Home: index.md
+  - 2023: 2023.md
   - 2022: 2022.md
   - 2021: 2021.md
 theme:
@@ -26,6 +27,7 @@ theme:
     - header.autohide
     - content.code.copy
     - navigation.top
+    - navigation.footer
 repo_name: advent-of-code
 repo_url: https://github.com/coding-armadillo/advent-of-code
 plugins:

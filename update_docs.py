@@ -30,7 +30,7 @@ for y in years:
 # Advent of Code {y.stem}
 
 """
-    for d in days:
+    for d in sorted(days):
         parts = [
             f"""
     === "{p.stem.split('_')[-1].capitalize().replace("Part","Part ")}"

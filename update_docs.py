@@ -39,7 +39,7 @@ for y in years:
         --8<-- "{str(p.as_posix())}"
         ```
 """
-            for p in days[d]
+            for p in sorted(days[d])
         ]
 
         text += f"""

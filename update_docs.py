@@ -1,0 +1,51 @@
+from pathlib import Path
+
+years = sorted([y for y in Path("src").iterdir() if y.is_dir()], reverse=True)
+
+with open("docs/index.md", "w", encoding="utf-8") as f:
+    star = '    <img src="https://cdn3.iconfinder.com/data/icons/fatcow/32/asterisk_yellow.png" alt="logo" height="32">'
+    stars = "\n".join([star] * 5)
+    items = "\n".join([f"- [{y.stem}]({y.stem}.md)" for y in years])
+    text = f"""
+<div align="center">
+    {stars}
+</div>
+
+# Advent of Code
+
+{items}
+"""
+    f.write(text.strip())
+
+for y in years:
+    days = {}
+    for d in list(y.glob("*.py")):
+        name = d.stem.split("_")[0]
+        if name not in days:
+            days[name] = [d]
+        else:
+            days[name].append(d)
+
+    text = f"""
+# Advent of Code {y.stem}
+
+"""
+    for d in days:
+        parts = [
+            f"""
+    === "{p.stem.split('_')[-1].capitalize().replace("Part","Part ")}"
+
+        ```py linenums="1"
+        --8<-- "{str(p.as_posix())}"
+        ```
+"""
+            for p in days[d]
+        ]
+
+        text += f"""
+??? success "{d.capitalize().replace("Day","Day ")}"
+{''.join(parts)}
+""".lstrip()
+
+    with open(f"docs/{y.stem}.md", "w", encoding="utf-8") as f:
+        f.write(text.strip())

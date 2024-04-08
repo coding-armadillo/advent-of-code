@@ -1,2 +1,2 @@
-networkx==3.2.1
+networkx==3.3
 Pillow==10.3.0

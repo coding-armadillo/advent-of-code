@@ -13,6 +13,8 @@ with open("docs/index.md", "w", encoding="utf-8") as f:
 
 # Advent of Code
 
+Solutions to [Advent of Code](https://adventofcode.com/)
+
 {items}
 """
     f.write(text.strip())

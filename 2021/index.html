@@ -351,7 +351,7 @@
 <a id=__codelineno-6-28 name=__codelineno-6-28></a>    <span class=n>winning_locations</span><span class=o>.</span><span class=n>append</span><span class=p>([(</span><span class=n>row</span><span class=p>,</span> <span class=n>col</span><span class=p>)</span> <span class=k>for</span> <span class=n>row</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=mi>5</span><span class=p>)])</span>
 <a id=__codelineno-6-29 name=__codelineno-6-29></a>
 <a id=__codelineno-6-30 name=__codelineno-6-30></a>
-<a id=__codelineno-6-31 name=__codelineno-6-31></a><span class=k>def</span> <span class=nf>wins</span><span class=p>(</span><span class=n>locations</span><span class=p>,</span> <span class=n>winning_locations</span><span class=o>=</span><span class=n>winning_locations</span><span class=p>):</span>
+<a id=__codelineno-6-31 name=__codelineno-6-31></a><span class=k>def</span><span class=w> </span><span class=nf>wins</span><span class=p>(</span><span class=n>locations</span><span class=p>,</span> <span class=n>winning_locations</span><span class=o>=</span><span class=n>winning_locations</span><span class=p>):</span>
 <a id=__codelineno-6-32 name=__codelineno-6-32></a>    <span class=k>for</span> <span class=n>winning_location</span> <span class=ow>in</span> <span class=n>winning_locations</span><span class=p>:</span>
 <a id=__codelineno-6-33 name=__codelineno-6-33></a>        <span class=k>if</span> <span class=nb>all</span><span class=p>(</span><span class=n>loc</span> <span class=ow>in</span> <span class=n>locations</span> <span class=k>for</span> <span class=n>loc</span> <span class=ow>in</span> <span class=n>winning_location</span><span class=p>):</span>
 <a id=__codelineno-6-34 name=__codelineno-6-34></a>            <span class=k>return</span> <span class=n>winning_location</span>
@@ -492,7 +492,7 @@
 <a id=__codelineno-7-28 name=__codelineno-7-28></a>    <span class=n>winning_locations</span><span class=o>.</span><span class=n>append</span><span class=p>([(</span><span class=n>row</span><span class=p>,</span> <span class=n>col</span><span class=p>)</span> <span class=k>for</span> <span class=n>row</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=mi>5</span><span class=p>)])</span>
 <a id=__codelineno-7-29 name=__codelineno-7-29></a>
 <a id=__codelineno-7-30 name=__codelineno-7-30></a>
-<a id=__codelineno-7-31 name=__codelineno-7-31></a><span class=k>def</span> <span class=nf>wins</span><span class=p>(</span><span class=n>locations</span><span class=p>,</span> <span class=n>winning_locations</span><span class=o>=</span><span class=n>winning_locations</span><span class=p>):</span>
+<a id=__codelineno-7-31 name=__codelineno-7-31></a><span class=k>def</span><span class=w> </span><span class=nf>wins</span><span class=p>(</span><span class=n>locations</span><span class=p>,</span> <span class=n>winning_locations</span><span class=o>=</span><span class=n>winning_locations</span><span class=p>):</span>
 <a id=__codelineno-7-32 name=__codelineno-7-32></a>    <span class=k>for</span> <span class=n>winning_location</span> <span class=ow>in</span> <span class=n>winning_locations</span><span class=p>:</span>
 <a id=__codelineno-7-33 name=__codelineno-7-33></a>        <span class=k>if</span> <span class=nb>all</span><span class=p>(</span><span class=n>loc</span> <span class=ow>in</span> <span class=n>locations</span> <span class=k>for</span> <span class=n>loc</span> <span class=ow>in</span> <span class=n>winning_location</span><span class=p>):</span>
 <a id=__codelineno-7-34 name=__codelineno-7-34></a>            <span class=k>return</span> <span class=n>winning_location</span>
@@ -572,7 +572,7 @@
 <a id=__codelineno-8-12 name=__codelineno-8-12></a><span class=p>]</span>
 <a id=__codelineno-8-13 name=__codelineno-8-13></a><span class=nb>print</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>lines</span><span class=p>))</span>
 <a id=__codelineno-8-14 name=__codelineno-8-14></a>
-<a id=__codelineno-8-15 name=__codelineno-8-15></a><span class=kn>from</span> <span class=nn>collections</span> <span class=kn>import</span> <span class=n>Counter</span>
+<a id=__codelineno-8-15 name=__codelineno-8-15></a><span class=kn>from</span><span class=w> </span><span class=nn>collections</span><span class=w> </span><span class=kn>import</span> <span class=n>Counter</span>
 <a id=__codelineno-8-16 name=__codelineno-8-16></a>
 <a id=__codelineno-8-17 name=__codelineno-8-17></a><span class=n>diagram</span> <span class=o>=</span> <span class=n>Counter</span><span class=p>()</span>
 <a id=__codelineno-8-18 name=__codelineno-8-18></a><span class=k>for</span> <span class=n>coord1</span><span class=p>,</span> <span class=n>coord2</span> <span class=ow>in</span> <span class=n>lines</span><span class=p>:</span>
@@ -627,7 +627,7 @@
 <a id=__codelineno-9-10 name=__codelineno-9-10></a>    <span class=k>for</span> <span class=n>coord1</span><span class=p>,</span> <span class=n>coord2</span> <span class=ow>in</span> <span class=n>lines</span>
 <a id=__codelineno-9-11 name=__codelineno-9-11></a><span class=p>]</span>
 <a id=__codelineno-9-12 name=__codelineno-9-12></a>
-<a id=__codelineno-9-13 name=__codelineno-9-13></a><span class=kn>from</span> <span class=nn>collections</span> <span class=kn>import</span> <span class=n>Counter</span>
+<a id=__codelineno-9-13 name=__codelineno-9-13></a><span class=kn>from</span><span class=w> </span><span class=nn>collections</span><span class=w> </span><span class=kn>import</span> <span class=n>Counter</span>
 <a id=__codelineno-9-14 name=__codelineno-9-14></a>
 <a id=__codelineno-9-15 name=__codelineno-9-15></a><span class=n>diagram</span> <span class=o>=</span> <span class=n>Counter</span><span class=p>()</span>
 <a id=__codelineno-9-16 name=__codelineno-9-16></a><span class=k>for</span> <span class=n>coord1</span><span class=p>,</span> <span class=n>coord2</span> <span class=ow>in</span> <span class=n>lines</span><span class=p>:</span>
@@ -709,7 +709,7 @@
 <a id=__codelineno-11-2 name=__codelineno-11-2></a>    <span class=n>fish</span> <span class=o>=</span> <span class=p>[</span><span class=nb>int</span><span class=p>(</span><span class=n>i</span><span class=p>)</span> <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=n>f</span><span class=o>.</span><span class=n>read</span><span class=p>()</span><span class=o>.</span><span class=n>strip</span><span class=p>()</span><span class=o>.</span><span class=n>split</span><span class=p>(</span><span class=s2>&quot;,&quot;</span><span class=p>)]</span>
 <a id=__codelineno-11-3 name=__codelineno-11-3></a>
 <a id=__codelineno-11-4 name=__codelineno-11-4></a>
-<a id=__codelineno-11-5 name=__codelineno-11-5></a><span class=kn>from</span> <span class=nn>collections</span> <span class=kn>import</span> <span class=n>Counter</span>
+<a id=__codelineno-11-5 name=__codelineno-11-5></a><span class=kn>from</span><span class=w> </span><span class=nn>collections</span><span class=w> </span><span class=kn>import</span> <span class=n>Counter</span>
 <a id=__codelineno-11-6 name=__codelineno-11-6></a>
 <a id=__codelineno-11-7 name=__codelineno-11-7></a><span class=n>fish</span> <span class=o>=</span> <span class=n>Counter</span><span class=p>(</span><span class=n>fish</span><span class=p>)</span>
 <a id=__codelineno-11-8 name=__codelineno-11-8></a><span class=nb>print</span><span class=p>(</span><span class=n>fish</span><span class=p>)</span>
@@ -750,7 +750,7 @@
 <a id=__codelineno-12-3 name=__codelineno-12-3></a>
 <a id=__codelineno-12-4 name=__codelineno-12-4></a><span class=nb>print</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>crabs</span><span class=p>))</span>
 <a id=__codelineno-12-5 name=__codelineno-12-5></a>
-<a id=__codelineno-12-6 name=__codelineno-12-6></a><span class=kn>from</span> <span class=nn>collections</span> <span class=kn>import</span> <span class=n>Counter</span>
+<a id=__codelineno-12-6 name=__codelineno-12-6></a><span class=kn>from</span><span class=w> </span><span class=nn>collections</span><span class=w> </span><span class=kn>import</span> <span class=n>Counter</span>
 <a id=__codelineno-12-7 name=__codelineno-12-7></a>
 <a id=__codelineno-12-8 name=__codelineno-12-8></a><span class=n>crabs</span> <span class=o>=</span> <span class=n>Counter</span><span class=p>(</span><span class=n>crabs</span><span class=p>)</span>
 <a id=__codelineno-12-9 name=__codelineno-12-9></a>
@@ -791,7 +791,7 @@
 <a id=__codelineno-13-3 name=__codelineno-13-3></a>
 <a id=__codelineno-13-4 name=__codelineno-13-4></a><span class=nb>print</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>crabs</span><span class=p>))</span>
 <a id=__codelineno-13-5 name=__codelineno-13-5></a>
-<a id=__codelineno-13-6 name=__codelineno-13-6></a><span class=kn>from</span> <span class=nn>collections</span> <span class=kn>import</span> <span class=n>Counter</span>
+<a id=__codelineno-13-6 name=__codelineno-13-6></a><span class=kn>from</span><span class=w> </span><span class=nn>collections</span><span class=w> </span><span class=kn>import</span> <span class=n>Counter</span>
 <a id=__codelineno-13-7 name=__codelineno-13-7></a>
 <a id=__codelineno-13-8 name=__codelineno-13-8></a><span class=n>crabs</span> <span class=o>=</span> <span class=n>Counter</span><span class=p>(</span><span class=n>crabs</span><span class=p>)</span>
 <a id=__codelineno-13-9 name=__codelineno-13-9></a>
@@ -899,11 +899,11 @@
 <a id=__codelineno-15-2 name=__codelineno-15-2></a>    <span class=n>obs</span> <span class=o>=</span> <span class=p>[</span><span class=n>line</span><span class=o>.</span><span class=n>split</span><span class=p>(</span><span class=s2>&quot; | &quot;</span><span class=p>)</span> <span class=k>for</span> <span class=n>line</span> <span class=ow>in</span> <span class=n>f</span><span class=o>.</span><span class=n>read</span><span class=p>()</span><span class=o>.</span><span class=n>splitlines</span><span class=p>()]</span>
 <a id=__codelineno-15-3 name=__codelineno-15-3></a>
 <a id=__codelineno-15-4 name=__codelineno-15-4></a>
-<a id=__codelineno-15-5 name=__codelineno-15-5></a><span class=k>def</span> <span class=nf>_sorted</span><span class=p>(</span><span class=n>digit</span><span class=p>):</span>
+<a id=__codelineno-15-5 name=__codelineno-15-5></a><span class=k>def</span><span class=w> </span><span class=nf>_sorted</span><span class=p>(</span><span class=n>digit</span><span class=p>):</span>
 <a id=__codelineno-15-6 name=__codelineno-15-6></a>    <span class=k>return</span> <span class=s2>&quot;&quot;</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=nb>sorted</span><span class=p>(</span><span class=n>digit</span><span class=p>))</span>
 <a id=__codelineno-15-7 name=__codelineno-15-7></a>
 <a id=__codelineno-15-8 name=__codelineno-15-8></a>
-<a id=__codelineno-15-9 name=__codelineno-15-9></a><span class=k>def</span> <span class=nf>solve</span><span class=p>(</span><span class=n>digits</span><span class=p>):</span>
+<a id=__codelineno-15-9 name=__codelineno-15-9></a><span class=k>def</span><span class=w> </span><span class=nf>solve</span><span class=p>(</span><span class=n>digits</span><span class=p>):</span>
 <a id=__codelineno-15-10 name=__codelineno-15-10></a>    <span class=n>mapping</span> <span class=o>=</span> <span class=p>{}</span>
 <a id=__codelineno-15-11 name=__codelineno-15-11></a>    <span class=n>five_segs</span> <span class=o>=</span> <span class=p>[]</span>
 <a id=__codelineno-15-12 name=__codelineno-15-12></a>    <span class=n>six_segs</span> <span class=o>=</span> <span class=p>[]</span>
@@ -1107,7 +1107,7 @@
 <a id=__codelineno-17-21 name=__codelineno-17-21></a><span class=n>basin_sizes</span> <span class=o>=</span> <span class=p>[]</span>
 <a id=__codelineno-17-22 name=__codelineno-17-22></a>
 <a id=__codelineno-17-23 name=__codelineno-17-23></a>
-<a id=__codelineno-17-24 name=__codelineno-17-24></a><span class=k>def</span> <span class=nf>find_basin</span><span class=p>(</span><span class=n>i</span><span class=p>,</span> <span class=n>j</span><span class=p>,</span> <span class=n>points</span><span class=p>):</span>
+<a id=__codelineno-17-24 name=__codelineno-17-24></a><span class=k>def</span><span class=w> </span><span class=nf>find_basin</span><span class=p>(</span><span class=n>i</span><span class=p>,</span> <span class=n>j</span><span class=p>,</span> <span class=n>points</span><span class=p>):</span>
 <a id=__codelineno-17-25 name=__codelineno-17-25></a>    <span class=n>points</span><span class=o>.</span><span class=n>append</span><span class=p>((</span><span class=n>i</span><span class=p>,</span> <span class=n>j</span><span class=p>))</span>
 <a id=__codelineno-17-26 name=__codelineno-17-26></a>
 <a id=__codelineno-17-27 name=__codelineno-17-27></a>    <span class=n>up</span> <span class=o>=</span> <span class=n>i</span>
@@ -1160,7 +1160,7 @@
 <a id=__codelineno-17-74 name=__codelineno-17-74></a>    <span class=n>find_basin</span><span class=p>(</span><span class=n>i</span><span class=p>,</span> <span class=n>j</span><span class=p>,</span> <span class=n>points</span><span class=p>)</span>
 <a id=__codelineno-17-75 name=__codelineno-17-75></a>    <span class=n>basin_sizes</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=nb>set</span><span class=p>(</span><span class=n>points</span><span class=p>)))</span>
 <a id=__codelineno-17-76 name=__codelineno-17-76></a>
-<a id=__codelineno-17-77 name=__codelineno-17-77></a><span class=kn>import</span> <span class=nn>functools</span>
+<a id=__codelineno-17-77 name=__codelineno-17-77></a><span class=kn>import</span><span class=w> </span><span class=nn>functools</span>
 <a id=__codelineno-17-78 name=__codelineno-17-78></a>
 <a id=__codelineno-17-79 name=__codelineno-17-79></a><span class=nb>print</span><span class=p>(</span><span class=n>functools</span><span class=o>.</span><span class=n>reduce</span><span class=p>(</span><span class=k>lambda</span> <span class=n>x</span><span class=p>,</span> <span class=n>y</span><span class=p>:</span> <span class=n>x</span> <span class=o>*</span> <span class=n>y</span><span class=p>,</span> <span class=nb>sorted</span><span class=p>(</span><span class=n>basin_sizes</span><span class=p>)[</span><span class=o>-</span><span class=mi>3</span><span class=p>:]))</span>
 </code></pre></div></td></tr></table></div> </div> </div> </div> </details> <details class=success> <summary>Day 10</summary> <div class="tabbed-set tabbed-alternate" data-tabs=10:2><input checked=checked id=__tabbed_10_1 name=__tabbed_10 type=radio><input id=__tabbed_10_2 name=__tabbed_10 type=radio><div class=tabbed-labels><label for=__tabbed_10_1>Part 1</label><label for=__tabbed_10_2>Part 2</label></div> <div class=tabbed-content> <div class=tabbed-block> <div class=highlight><table class=highlighttable><tr><td class=linenos><div class=linenodiv><pre><span></span><span class=normal><a href=#__codelineno-18-1> 1</a></span>
@@ -1216,7 +1216,7 @@
 <a id=__codelineno-18-17 name=__codelineno-18-17></a><span class=p>}</span>
 <a id=__codelineno-18-18 name=__codelineno-18-18></a>
 <a id=__codelineno-18-19 name=__codelineno-18-19></a>
-<a id=__codelineno-18-20 name=__codelineno-18-20></a><span class=k>def</span> <span class=nf>check</span><span class=p>(</span><span class=n>line</span><span class=p>):</span>
+<a id=__codelineno-18-20 name=__codelineno-18-20></a><span class=k>def</span><span class=w> </span><span class=nf>check</span><span class=p>(</span><span class=n>line</span><span class=p>):</span>
 <a id=__codelineno-18-21 name=__codelineno-18-21></a>    <span class=n>stack</span> <span class=o>=</span> <span class=p>[]</span>
 <a id=__codelineno-18-22 name=__codelineno-18-22></a>    <span class=k>for</span> <span class=n>c</span> <span class=ow>in</span> <span class=n>line</span><span class=p>:</span>
 <a id=__codelineno-18-23 name=__codelineno-18-23></a>        <span class=k>if</span> <span class=n>c</span> <span class=ow>in</span> <span class=n>match</span><span class=o>.</span><span class=n>values</span><span class=p>():</span>
@@ -1297,7 +1297,7 @@
 <a id=__codelineno-19-17 name=__codelineno-19-17></a><span class=p>}</span>
 <a id=__codelineno-19-18 name=__codelineno-19-18></a>
 <a id=__codelineno-19-19 name=__codelineno-19-19></a>
-<a id=__codelineno-19-20 name=__codelineno-19-20></a><span class=k>def</span> <span class=nf>check</span><span class=p>(</span><span class=n>line</span><span class=p>):</span>
+<a id=__codelineno-19-20 name=__codelineno-19-20></a><span class=k>def</span><span class=w> </span><span class=nf>check</span><span class=p>(</span><span class=n>line</span><span class=p>):</span>
 <a id=__codelineno-19-21 name=__codelineno-19-21></a>    <span class=n>stack</span> <span class=o>=</span> <span class=p>[]</span>
 <a id=__codelineno-19-22 name=__codelineno-19-22></a>    <span class=k>for</span> <span class=n>c</span> <span class=ow>in</span> <span class=n>line</span><span class=p>:</span>
 <a id=__codelineno-19-23 name=__codelineno-19-23></a>        <span class=k>if</span> <span class=n>c</span> <span class=ow>in</span> <span class=n>match</span><span class=o>.</span><span class=n>values</span><span class=p>():</span>
@@ -1402,13 +1402,13 @@
 <a id=__codelineno-20-2 name=__codelineno-20-2></a>    <span class=n>obs</span> <span class=o>=</span> <span class=p>[[</span><span class=nb>int</span><span class=p>(</span><span class=n>i</span><span class=p>)</span> <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=n>line</span><span class=p>]</span> <span class=k>for</span> <span class=n>line</span> <span class=ow>in</span> <span class=n>f</span><span class=o>.</span><span class=n>read</span><span class=p>()</span><span class=o>.</span><span class=n>splitlines</span><span class=p>()]</span>
 <a id=__codelineno-20-3 name=__codelineno-20-3></a>
 <a id=__codelineno-20-4 name=__codelineno-20-4></a>
-<a id=__codelineno-20-5 name=__codelineno-20-5></a><span class=k>def</span> <span class=nf>increase</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
+<a id=__codelineno-20-5 name=__codelineno-20-5></a><span class=k>def</span><span class=w> </span><span class=nf>increase</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
 <a id=__codelineno-20-6 name=__codelineno-20-6></a>    <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>obs</span><span class=p>)):</span>
 <a id=__codelineno-20-7 name=__codelineno-20-7></a>        <span class=k>for</span> <span class=n>j</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>obs</span><span class=p>[</span><span class=n>i</span><span class=p>])):</span>
 <a id=__codelineno-20-8 name=__codelineno-20-8></a>            <span class=n>obs</span><span class=p>[</span><span class=n>i</span><span class=p>][</span><span class=n>j</span><span class=p>]</span> <span class=o>+=</span> <span class=mi>1</span>
 <a id=__codelineno-20-9 name=__codelineno-20-9></a>
 <a id=__codelineno-20-10 name=__codelineno-20-10></a>
-<a id=__codelineno-20-11 name=__codelineno-20-11></a><span class=k>def</span> <span class=nf>has_flash</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
+<a id=__codelineno-20-11 name=__codelineno-20-11></a><span class=k>def</span><span class=w> </span><span class=nf>has_flash</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
 <a id=__codelineno-20-12 name=__codelineno-20-12></a>    <span class=n>locations</span> <span class=o>=</span> <span class=p>[]</span>
 <a id=__codelineno-20-13 name=__codelineno-20-13></a>    <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>obs</span><span class=p>)):</span>
 <a id=__codelineno-20-14 name=__codelineno-20-14></a>        <span class=k>for</span> <span class=n>j</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>obs</span><span class=p>[</span><span class=n>i</span><span class=p>])):</span>
@@ -1417,12 +1417,12 @@
 <a id=__codelineno-20-17 name=__codelineno-20-17></a>    <span class=k>return</span> <span class=n>locations</span>
 <a id=__codelineno-20-18 name=__codelineno-20-18></a>
 <a id=__codelineno-20-19 name=__codelineno-20-19></a>
-<a id=__codelineno-20-20 name=__codelineno-20-20></a><span class=k>def</span> <span class=nf>display</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
+<a id=__codelineno-20-20 name=__codelineno-20-20></a><span class=k>def</span><span class=w> </span><span class=nf>display</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
 <a id=__codelineno-20-21 name=__codelineno-20-21></a>    <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>obs</span><span class=p>)):</span>
 <a id=__codelineno-20-22 name=__codelineno-20-22></a>        <span class=nb>print</span><span class=p>(</span><span class=s2>&quot;&quot;</span><span class=o>.</span><span class=n>join</span><span class=p>([</span><span class=nb>str</span><span class=p>(</span><span class=n>i</span><span class=p>)</span> <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=n>obs</span><span class=p>[</span><span class=n>i</span><span class=p>]]))</span>
 <a id=__codelineno-20-23 name=__codelineno-20-23></a>
 <a id=__codelineno-20-24 name=__codelineno-20-24></a>
-<a id=__codelineno-20-25 name=__codelineno-20-25></a><span class=kn>from</span> <span class=nn>collections</span> <span class=kn>import</span> <span class=n>Counter</span>
+<a id=__codelineno-20-25 name=__codelineno-20-25></a><span class=kn>from</span><span class=w> </span><span class=nn>collections</span><span class=w> </span><span class=kn>import</span> <span class=n>Counter</span>
 <a id=__codelineno-20-26 name=__codelineno-20-26></a>
 <a id=__codelineno-20-27 name=__codelineno-20-27></a><span class=nb>print</span><span class=p>(</span><span class=s2>&quot;Before any steps:&quot;</span><span class=p>)</span>
 <a id=__codelineno-20-28 name=__codelineno-20-28></a><span class=n>display</span><span class=p>(</span><span class=n>obs</span><span class=p>)</span>
@@ -1554,13 +1554,13 @@
 <a id=__codelineno-21-2 name=__codelineno-21-2></a>    <span class=n>obs</span> <span class=o>=</span> <span class=p>[[</span><span class=nb>int</span><span class=p>(</span><span class=n>i</span><span class=p>)</span> <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=n>line</span><span class=p>]</span> <span class=k>for</span> <span class=n>line</span> <span class=ow>in</span> <span class=n>f</span><span class=o>.</span><span class=n>read</span><span class=p>()</span><span class=o>.</span><span class=n>splitlines</span><span class=p>()]</span>
 <a id=__codelineno-21-3 name=__codelineno-21-3></a>
 <a id=__codelineno-21-4 name=__codelineno-21-4></a>
-<a id=__codelineno-21-5 name=__codelineno-21-5></a><span class=k>def</span> <span class=nf>increase</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
+<a id=__codelineno-21-5 name=__codelineno-21-5></a><span class=k>def</span><span class=w> </span><span class=nf>increase</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
 <a id=__codelineno-21-6 name=__codelineno-21-6></a>    <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>obs</span><span class=p>)):</span>
 <a id=__codelineno-21-7 name=__codelineno-21-7></a>        <span class=k>for</span> <span class=n>j</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>obs</span><span class=p>[</span><span class=n>i</span><span class=p>])):</span>
 <a id=__codelineno-21-8 name=__codelineno-21-8></a>            <span class=n>obs</span><span class=p>[</span><span class=n>i</span><span class=p>][</span><span class=n>j</span><span class=p>]</span> <span class=o>+=</span> <span class=mi>1</span>
 <a id=__codelineno-21-9 name=__codelineno-21-9></a>
 <a id=__codelineno-21-10 name=__codelineno-21-10></a>
-<a id=__codelineno-21-11 name=__codelineno-21-11></a><span class=k>def</span> <span class=nf>has_flash</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
+<a id=__codelineno-21-11 name=__codelineno-21-11></a><span class=k>def</span><span class=w> </span><span class=nf>has_flash</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
 <a id=__codelineno-21-12 name=__codelineno-21-12></a>    <span class=n>locations</span> <span class=o>=</span> <span class=p>[]</span>
 <a id=__codelineno-21-13 name=__codelineno-21-13></a>    <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>obs</span><span class=p>)):</span>
 <a id=__codelineno-21-14 name=__codelineno-21-14></a>        <span class=k>for</span> <span class=n>j</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>obs</span><span class=p>[</span><span class=n>i</span><span class=p>])):</span>
@@ -1569,12 +1569,12 @@
 <a id=__codelineno-21-17 name=__codelineno-21-17></a>    <span class=k>return</span> <span class=n>locations</span>
 <a id=__codelineno-21-18 name=__codelineno-21-18></a>
 <a id=__codelineno-21-19 name=__codelineno-21-19></a>
-<a id=__codelineno-21-20 name=__codelineno-21-20></a><span class=k>def</span> <span class=nf>display</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
+<a id=__codelineno-21-20 name=__codelineno-21-20></a><span class=k>def</span><span class=w> </span><span class=nf>display</span><span class=p>(</span><span class=n>obs</span><span class=p>):</span>
 <a id=__codelineno-21-21 name=__codelineno-21-21></a>    <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>obs</span><span class=p>)):</span>
 <a id=__codelineno-21-22 name=__codelineno-21-22></a>        <span class=nb>print</span><span class=p>(</span><span class=s2>&quot;&quot;</span><span class=o>.</span><span class=n>join</span><span class=p>([</span><span class=nb>str</span><span class=p>(</span><span class=n>i</span><span class=p>)</span> <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=n>obs</span><span class=p>[</span><span class=n>i</span><span class=p>]]))</span>
 <a id=__codelineno-21-23 name=__codelineno-21-23></a>
 <a id=__codelineno-21-24 name=__codelineno-21-24></a>
-<a id=__codelineno-21-25 name=__codelineno-21-25></a><span class=kn>from</span> <span class=nn>collections</span> <span class=kn>import</span> <span class=n>Counter</span>
+<a id=__codelineno-21-25 name=__codelineno-21-25></a><span class=kn>from</span><span class=w> </span><span class=nn>collections</span><span class=w> </span><span class=kn>import</span> <span class=n>Counter</span>
 <a id=__codelineno-21-26 name=__codelineno-21-26></a>
 <a id=__codelineno-21-27 name=__codelineno-21-27></a>
 <a id=__codelineno-21-28 name=__codelineno-21-28></a><span class=nb>print</span><span class=p>(</span><span class=s2>&quot;Before any steps:&quot;</span><span class=p>)</span>
@@ -1690,7 +1690,7 @@
 <a id=__codelineno-22-15 name=__codelineno-22-15></a>    <span class=k>else</span><span class=p>:</span>
 <a id=__codelineno-22-16 name=__codelineno-22-16></a>        <span class=n>graph</span><span class=p>[</span><span class=n>node2</span><span class=p>]</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=n>node1</span><span class=p>)</span>
 <a id=__codelineno-22-17 name=__codelineno-22-17></a>
-<a id=__codelineno-22-18 name=__codelineno-22-18></a><span class=kn>from</span> <span class=nn>pprint</span> <span class=kn>import</span> <span class=n>pprint</span>
+<a id=__codelineno-22-18 name=__codelineno-22-18></a><span class=kn>from</span><span class=w> </span><span class=nn>pprint</span><span class=w> </span><span class=kn>import</span> <span class=n>pprint</span>
 <a id=__codelineno-22-19 name=__codelineno-22-19></a>
 <a id=__codelineno-22-20 name=__codelineno-22-20></a><span class=n>pprint</span><span class=p>(</span><span class=n>graph</span><span class=p>)</span>
 <a id=__codelineno-22-21 name=__codelineno-22-21></a>
@@ -1698,7 +1698,7 @@
 <a id=__codelineno-22-23 name=__codelineno-22-23></a><span class=n>paths</span> <span class=o>=</span> <span class=p>[]</span>
 <a id=__codelineno-22-24 name=__codelineno-22-24></a>
 <a id=__codelineno-22-25 name=__codelineno-22-25></a>
-<a id=__codelineno-22-26 name=__codelineno-22-26></a><span class=k>def</span> <span class=nf>breadth_first_search</span><span class=p>(</span><span class=n>graph</span><span class=p>,</span> <span class=n>start</span><span class=p>,</span> <span class=n>end</span><span class=p>,</span> <span class=n>path</span><span class=o>=</span><span class=p>[]):</span>
+<a id=__codelineno-22-26 name=__codelineno-22-26></a><span class=k>def</span><span class=w> </span><span class=nf>breadth_first_search</span><span class=p>(</span><span class=n>graph</span><span class=p>,</span> <span class=n>start</span><span class=p>,</span> <span class=n>end</span><span class=p>,</span> <span class=n>path</span><span class=o>=</span><span class=p>[]):</span>
 <a id=__codelineno-22-27 name=__codelineno-22-27></a>    <span class=n>path</span> <span class=o>=</span> <span class=n>path</span> <span class=o>+</span> <span class=p>[</span><span class=n>start</span><span class=p>]</span>
 <a id=__codelineno-22-28 name=__codelineno-22-28></a>    <span class=k>if</span> <span class=n>start</span> <span class=o>==</span> <span class=n>end</span><span class=p>:</span>
 <a id=__codelineno-22-29 name=__codelineno-22-29></a>        <span class=n>paths</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=n>path</span><span class=p>)</span>
@@ -1797,7 +1797,7 @@
 <a id=__codelineno-23-15 name=__codelineno-23-15></a>    <span class=k>else</span><span class=p>:</span>
 <a id=__codelineno-23-16 name=__codelineno-23-16></a>        <span class=n>graph</span><span class=p>[</span><span class=n>node2</span><span class=p>]</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=n>node1</span><span class=p>)</span>
 <a id=__codelineno-23-17 name=__codelineno-23-17></a>
-<a id=__codelineno-23-18 name=__codelineno-23-18></a><span class=kn>from</span> <span class=nn>pprint</span> <span class=kn>import</span> <span class=n>pprint</span>
+<a id=__codelineno-23-18 name=__codelineno-23-18></a><span class=kn>from</span><span class=w> </span><span class=nn>pprint</span><span class=w> </span><span class=kn>import</span> <span class=n>pprint</span>
 <a id=__codelineno-23-19 name=__codelineno-23-19></a>
 <a id=__codelineno-23-20 name=__codelineno-23-20></a><span class=n>pprint</span><span class=p>(</span><span class=n>graph</span><span class=p>)</span>
 <a id=__codelineno-23-21 name=__codelineno-23-21></a>
@@ -1805,7 +1805,7 @@
 <a id=__codelineno-23-23 name=__codelineno-23-23></a><span class=n>paths</span> <span class=o>=</span> <span class=p>[]</span>
 <a id=__codelineno-23-24 name=__codelineno-23-24></a>
 <a id=__codelineno-23-25 name=__codelineno-23-25></a>
-<a id=__codelineno-23-26 name=__codelineno-23-26></a><span class=k>def</span> <span class=nf>remaining</span><span class=p>(</span><span class=n>path</span><span class=p>,</span> <span class=n>node</span><span class=p>):</span>
+<a id=__codelineno-23-26 name=__codelineno-23-26></a><span class=k>def</span><span class=w> </span><span class=nf>remaining</span><span class=p>(</span><span class=n>path</span><span class=p>,</span> <span class=n>node</span><span class=p>):</span>
 <a id=__codelineno-23-27 name=__codelineno-23-27></a>    <span class=n>others</span> <span class=o>=</span> <span class=p>[</span>
 <a id=__codelineno-23-28 name=__codelineno-23-28></a>        <span class=n>n</span> <span class=k>for</span> <span class=n>n</span> <span class=ow>in</span> <span class=n>path</span> <span class=k>if</span> <span class=n>n</span> <span class=o>!=</span> <span class=n>node</span> <span class=ow>and</span> <span class=n>n</span><span class=o>.</span><span class=n>islower</span><span class=p>()</span> <span class=ow>and</span> <span class=n>n</span> <span class=ow>not</span> <span class=ow>in</span> <span class=p>[</span><span class=s2>&quot;start&quot;</span><span class=p>,</span> <span class=s2>&quot;end&quot;</span><span class=p>]</span>
 <a id=__codelineno-23-29 name=__codelineno-23-29></a>    <span class=p>]</span>
@@ -1813,7 +1813,7 @@
 <a id=__codelineno-23-31 name=__codelineno-23-31></a>    <span class=k>return</span> <span class=nb>all</span><span class=p>(</span><span class=n>path</span><span class=o>.</span><span class=n>count</span><span class=p>(</span><span class=n>n</span><span class=p>)</span> <span class=o>&lt;=</span> <span class=mi>1</span> <span class=k>for</span> <span class=n>n</span> <span class=ow>in</span> <span class=n>others</span><span class=p>)</span>
 <a id=__codelineno-23-32 name=__codelineno-23-32></a>
 <a id=__codelineno-23-33 name=__codelineno-23-33></a>
-<a id=__codelineno-23-34 name=__codelineno-23-34></a><span class=k>def</span> <span class=nf>breadth_first_search</span><span class=p>(</span><span class=n>graph</span><span class=p>,</span> <span class=n>start</span><span class=p>,</span> <span class=n>end</span><span class=p>,</span> <span class=n>path</span><span class=o>=</span><span class=p>[]):</span>
+<a id=__codelineno-23-34 name=__codelineno-23-34></a><span class=k>def</span><span class=w> </span><span class=nf>breadth_first_search</span><span class=p>(</span><span class=n>graph</span><span class=p>,</span> <span class=n>start</span><span class=p>,</span> <span class=n>end</span><span class=p>,</span> <span class=n>path</span><span class=o>=</span><span class=p>[]):</span>
 <a id=__codelineno-23-35 name=__codelineno-23-35></a>
 <a id=__codelineno-23-36 name=__codelineno-23-36></a>    <span class=n>path</span> <span class=o>=</span> <span class=n>path</span> <span class=o>+</span> <span class=p>[</span><span class=n>start</span><span class=p>]</span>
 <a id=__codelineno-23-37 name=__codelineno-23-37></a>    <span class=k>if</span> <span class=n>start</span> <span class=o>==</span> <span class=n>end</span><span class=p>:</span>
@@ -2022,7 +2022,7 @@
 <a id=__codelineno-25-48 name=__codelineno-25-48></a>            <span class=nb>print</span><span class=p>(</span><span class=s2>&quot; &quot;</span><span class=p>,</span> <span class=n>end</span><span class=o>=</span><span class=s2>&quot;&quot;</span><span class=p>)</span>
 <a id=__codelineno-25-49 name=__codelineno-25-49></a>    <span class=nb>print</span><span class=p>()</span>
 <a id=__codelineno-25-50 name=__codelineno-25-50></a>
-<a id=__codelineno-25-51 name=__codelineno-25-51></a><span class=kn>from</span> <span class=nn>PIL</span> <span class=kn>import</span> <span class=n>Image</span>
+<a id=__codelineno-25-51 name=__codelineno-25-51></a><span class=kn>from</span><span class=w> </span><span class=nn>PIL</span><span class=w> </span><span class=kn>import</span> <span class=n>Image</span>
 <a id=__codelineno-25-52 name=__codelineno-25-52></a>
 <a id=__codelineno-25-53 name=__codelineno-25-53></a><span class=n>img</span> <span class=o>=</span> <span class=n>Image</span><span class=o>.</span><span class=n>new</span><span class=p>(</span><span class=s2>&quot;RGB&quot;</span><span class=p>,</span> <span class=p>(</span><span class=n>max_x</span> <span class=o>+</span> <span class=mi>1</span><span class=p>,</span> <span class=n>max_y</span> <span class=o>+</span> <span class=mi>1</span><span class=p>),</span> <span class=s2>&quot;black&quot;</span><span class=p>)</span>
 <a id=__codelineno-25-54 name=__codelineno-25-54></a><span class=n>pixels</span> <span class=o>=</span> <span class=n>img</span><span class=o>.</span><span class=n>load</span><span class=p>()</span>
@@ -2093,7 +2093,7 @@
 <a id=__codelineno-26-28 name=__codelineno-26-28></a>
 <a id=__codelineno-26-29 name=__codelineno-26-29></a>    <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&quot;After step </span><span class=si>{</span><span class=n>i</span><span class=o>+</span><span class=mi>1</span><span class=si>}</span><span class=s2>: </span><span class=si>{</span><span class=n>template</span><span class=si>}</span><span class=s2>&quot;</span><span class=p>)</span>
 <a id=__codelineno-26-30 name=__codelineno-26-30></a>
-<a id=__codelineno-26-31 name=__codelineno-26-31></a><span class=kn>from</span> <span class=nn>collections</span> <span class=kn>import</span> <span class=n>Counter</span>
+<a id=__codelineno-26-31 name=__codelineno-26-31></a><span class=kn>from</span><span class=w> </span><span class=nn>collections</span><span class=w> </span><span class=kn>import</span> <span class=n>Counter</span>
 <a id=__codelineno-26-32 name=__codelineno-26-32></a>
 <a id=__codelineno-26-33 name=__codelineno-26-33></a><span class=n>counts</span> <span class=o>=</span> <span class=n>Counter</span><span class=p>(</span><span class=n>template</span><span class=p>)</span><span class=o>.</span><span class=n>most_common</span><span class=p>()</span>
 <a id=__codelineno-26-34 name=__codelineno-26-34></a>
@@ -2156,7 +2156,7 @@
 <a id=__codelineno-27-15 name=__codelineno-27-15></a><span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&quot;Template: </span><span class=si>{</span><span class=n>template</span><span class=si>}</span><span class=s2>&quot;</span><span class=p>)</span>
 <a id=__codelineno-27-16 name=__codelineno-27-16></a><span class=n>segs</span> <span class=o>=</span> <span class=p>[</span><span class=n>template</span><span class=p>[</span><span class=n>j</span> <span class=p>:</span> <span class=n>j</span> <span class=o>+</span> <span class=mi>2</span><span class=p>]</span> <span class=k>for</span> <span class=n>j</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=mi>0</span><span class=p>,</span> <span class=nb>len</span><span class=p>(</span><span class=n>template</span><span class=p>)</span> <span class=o>-</span> <span class=mi>1</span><span class=p>)]</span>
 <a id=__codelineno-27-17 name=__codelineno-27-17></a>
-<a id=__codelineno-27-18 name=__codelineno-27-18></a><span class=kn>from</span> <span class=nn>collections</span> <span class=kn>import</span> <span class=n>Counter</span>
+<a id=__codelineno-27-18 name=__codelineno-27-18></a><span class=kn>from</span><span class=w> </span><span class=nn>collections</span><span class=w> </span><span class=kn>import</span> <span class=n>Counter</span>
 <a id=__codelineno-27-19 name=__codelineno-27-19></a>
 <a id=__codelineno-27-20 name=__codelineno-27-20></a><span class=n>counts</span> <span class=o>=</span> <span class=n>Counter</span><span class=p>(</span><span class=n>segs</span><span class=p>)</span>
 <a id=__codelineno-27-21 name=__codelineno-27-21></a>
@@ -2247,22 +2247,22 @@
 <a id=__codelineno-28-5 name=__codelineno-28-5></a>
 <a id=__codelineno-28-6 name=__codelineno-28-6></a><span class=c1># reference: https://stackabuse.com/dijkstras-algorithm-in-python/</span>
 <a id=__codelineno-28-7 name=__codelineno-28-7></a>
-<a id=__codelineno-28-8 name=__codelineno-28-8></a><span class=kn>from</span> <span class=nn>queue</span> <span class=kn>import</span> <span class=n>PriorityQueue</span>
+<a id=__codelineno-28-8 name=__codelineno-28-8></a><span class=kn>from</span><span class=w> </span><span class=nn>queue</span><span class=w> </span><span class=kn>import</span> <span class=n>PriorityQueue</span>
 <a id=__codelineno-28-9 name=__codelineno-28-9></a>
 <a id=__codelineno-28-10 name=__codelineno-28-10></a>
-<a id=__codelineno-28-11 name=__codelineno-28-11></a><span class=k>class</span> <span class=nc>Graph</span><span class=p>:</span>
-<a id=__codelineno-28-12 name=__codelineno-28-12></a>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>num_of_vertices</span><span class=p>):</span>
+<a id=__codelineno-28-11 name=__codelineno-28-11></a><span class=k>class</span><span class=w> </span><span class=nc>Graph</span><span class=p>:</span>
+<a id=__codelineno-28-12 name=__codelineno-28-12></a>    <span class=k>def</span><span class=w> </span><span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>num_of_vertices</span><span class=p>):</span>
 <a id=__codelineno-28-13 name=__codelineno-28-13></a>        <span class=bp>self</span><span class=o>.</span><span class=n>v</span> <span class=o>=</span> <span class=n>num_of_vertices</span>
 <a id=__codelineno-28-14 name=__codelineno-28-14></a>        <span class=bp>self</span><span class=o>.</span><span class=n>edges</span> <span class=o>=</span> <span class=p>[</span>
 <a id=__codelineno-28-15 name=__codelineno-28-15></a>            <span class=p>[</span><span class=o>-</span><span class=mi>1</span> <span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=n>num_of_vertices</span><span class=p>)]</span> <span class=k>for</span> <span class=n>j</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=n>num_of_vertices</span><span class=p>)</span>
 <a id=__codelineno-28-16 name=__codelineno-28-16></a>        <span class=p>]</span>
 <a id=__codelineno-28-17 name=__codelineno-28-17></a>        <span class=bp>self</span><span class=o>.</span><span class=n>visited</span> <span class=o>=</span> <span class=p>[]</span>
 <a id=__codelineno-28-18 name=__codelineno-28-18></a>
-<a id=__codelineno-28-19 name=__codelineno-28-19></a>    <span class=k>def</span> <span class=nf>add_edge</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>u</span><span class=p>,</span> <span class=n>v</span><span class=p>,</span> <span class=n>weight</span><span class=p>):</span>
+<a id=__codelineno-28-19 name=__codelineno-28-19></a>    <span class=k>def</span><span class=w> </span><span class=nf>add_edge</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>u</span><span class=p>,</span> <span class=n>v</span><span class=p>,</span> <span class=n>weight</span><span class=p>):</span>
 <a id=__codelineno-28-20 name=__codelineno-28-20></a>        <span class=bp>self</span><span class=o>.</span><span class=n>edges</span><span class=p>[</span><span class=n>u</span><span class=p>][</span><span class=n>v</span><span class=p>]</span> <span class=o>=</span> <span class=n>weight</span>
 <a id=__codelineno-28-21 name=__codelineno-28-21></a>
 <a id=__codelineno-28-22 name=__codelineno-28-22></a>
-<a id=__codelineno-28-23 name=__codelineno-28-23></a><span class=k>def</span> <span class=nf>dijkstra</span><span class=p>(</span><span class=n>graph</span><span class=p>,</span> <span class=n>start_vertex</span><span class=p>):</span>
+<a id=__codelineno-28-23 name=__codelineno-28-23></a><span class=k>def</span><span class=w> </span><span class=nf>dijkstra</span><span class=p>(</span><span class=n>graph</span><span class=p>,</span> <span class=n>start_vertex</span><span class=p>):</span>
 <a id=__codelineno-28-24 name=__codelineno-28-24></a>    <span class=n>D</span> <span class=o>=</span> <span class=p>{</span><span class=n>v</span><span class=p>:</span> <span class=nb>float</span><span class=p>(</span><span class=s2>&quot;inf&quot;</span><span class=p>)</span> <span class=k>for</span> <span class=n>v</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=n>graph</span><span class=o>.</span><span class=n>v</span><span class=p>)}</span>
 <a id=__codelineno-28-25 name=__codelineno-28-25></a>    <span class=n>D</span><span class=p>[</span><span class=n>start_vertex</span><span class=p>]</span> <span class=o>=</span> <span class=mi>0</span>
 <a id=__codelineno-28-26 name=__codelineno-28-26></a>
@@ -2365,7 +2365,7 @@
 <a id=__codelineno-29-16 name=__codelineno-29-16></a>
 <a id=__codelineno-29-17 name=__codelineno-29-17></a><span class=c1># Using the networkx library instead</span>
 <a id=__codelineno-29-18 name=__codelineno-29-18></a>
-<a id=__codelineno-29-19 name=__codelineno-29-19></a><span class=kn>import</span> <span class=nn>networkx</span> <span class=k>as</span> <span class=nn>nx</span>
+<a id=__codelineno-29-19 name=__codelineno-29-19></a><span class=kn>import</span><span class=w> </span><span class=nn>networkx</span><span class=w> </span><span class=k>as</span><span class=w> </span><span class=nn>nx</span>
 <a id=__codelineno-29-20 name=__codelineno-29-20></a>
 <a id=__codelineno-29-21 name=__codelineno-29-21></a><span class=n>g</span> <span class=o>=</span> <span class=n>nx</span><span class=o>.</span><span class=n>DiGraph</span><span class=p>()</span>
 <a id=__codelineno-29-22 name=__codelineno-29-22></a><span class=n>rows</span> <span class=o>*=</span> <span class=mi>5</span>
@@ -2486,7 +2486,7 @@
 <a id=__codelineno-30-4 name=__codelineno-30-4></a><span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&quot;Hex: </span><span class=si>{</span><span class=n>hexadecimal</span><span class=si>}</span><span class=s2>&quot;</span><span class=p>)</span>
 <a id=__codelineno-30-5 name=__codelineno-30-5></a>
 <a id=__codelineno-30-6 name=__codelineno-30-6></a>
-<a id=__codelineno-30-7 name=__codelineno-30-7></a><span class=k>def</span> <span class=nf>hex2bin</span><span class=p>(</span><span class=n>h</span><span class=p>):</span>
+<a id=__codelineno-30-7 name=__codelineno-30-7></a><span class=k>def</span><span class=w> </span><span class=nf>hex2bin</span><span class=p>(</span><span class=n>h</span><span class=p>):</span>
 <a id=__codelineno-30-8 name=__codelineno-30-8></a>    <span class=k>return</span> <span class=nb>bin</span><span class=p>(</span><span class=nb>int</span><span class=p>(</span><span class=n>h</span><span class=p>,</span> <span class=mi>16</span><span class=p>))[</span><span class=mi>2</span><span class=p>:]</span><span class=o>.</span><span class=n>zfill</span><span class=p>(</span><span class=nb>len</span><span class=p>(</span><span class=n>h</span><span class=p>)</span> <span class=o>*</span> <span class=mi>4</span><span class=p>)</span>
 <a id=__codelineno-30-9 name=__codelineno-30-9></a>
 <a id=__codelineno-30-10 name=__codelineno-30-10></a>
@@ -2496,14 +2496,14 @@
 <a id=__codelineno-30-14 name=__codelineno-30-14></a><span class=nb>print</span><span class=p>()</span>
 <a id=__codelineno-30-15 name=__codelineno-30-15></a>
 <a id=__codelineno-30-16 name=__codelineno-30-16></a>
-<a id=__codelineno-30-17 name=__codelineno-30-17></a><span class=k>def</span> <span class=nf>decode_header</span><span class=p>(</span><span class=n>b</span><span class=p>):</span>
+<a id=__codelineno-30-17 name=__codelineno-30-17></a><span class=k>def</span><span class=w> </span><span class=nf>decode_header</span><span class=p>(</span><span class=n>b</span><span class=p>):</span>
 <a id=__codelineno-30-18 name=__codelineno-30-18></a>    <span class=n>packet_version</span> <span class=o>=</span> <span class=n>b</span><span class=p>[:</span><span class=mi>3</span><span class=p>]</span>
 <a id=__codelineno-30-19 name=__codelineno-30-19></a>    <span class=n>packet_type_id</span> <span class=o>=</span> <span class=n>b</span><span class=p>[</span><span class=mi>3</span><span class=p>:</span><span class=mi>6</span><span class=p>]</span>
 <a id=__codelineno-30-20 name=__codelineno-30-20></a>
 <a id=__codelineno-30-21 name=__codelineno-30-21></a>    <span class=k>return</span> <span class=nb>int</span><span class=p>(</span><span class=n>packet_version</span><span class=p>,</span> <span class=mi>2</span><span class=p>),</span> <span class=nb>int</span><span class=p>(</span><span class=n>packet_type_id</span><span class=p>,</span> <span class=mi>2</span><span class=p>),</span> <span class=n>b</span><span class=p>[</span><span class=mi>6</span><span class=p>:]</span>
 <a id=__codelineno-30-22 name=__codelineno-30-22></a>
 <a id=__codelineno-30-23 name=__codelineno-30-23></a>
-<a id=__codelineno-30-24 name=__codelineno-30-24></a><span class=k>def</span> <span class=nf>decode_literal</span><span class=p>(</span><span class=n>b</span><span class=p>):</span>
+<a id=__codelineno-30-24 name=__codelineno-30-24></a><span class=k>def</span><span class=w> </span><span class=nf>decode_literal</span><span class=p>(</span><span class=n>b</span><span class=p>):</span>
 <a id=__codelineno-30-25 name=__codelineno-30-25></a>    <span class=n>value</span> <span class=o>=</span> <span class=s2>&quot;&quot;</span>
 <a id=__codelineno-30-26 name=__codelineno-30-26></a>
 <a id=__codelineno-30-27 name=__codelineno-30-27></a>    <span class=k>while</span> <span class=n>b</span><span class=p>:</span>
@@ -2516,7 +2516,7 @@
 <a id=__codelineno-30-34 name=__codelineno-30-34></a>    <span class=k>return</span> <span class=n>value</span><span class=p>,</span> <span class=n>b</span>
 <a id=__codelineno-30-35 name=__codelineno-30-35></a>
 <a id=__codelineno-30-36 name=__codelineno-30-36></a>
-<a id=__codelineno-30-37 name=__codelineno-30-37></a><span class=k>def</span> <span class=nf>decode_operator</span><span class=p>(</span><span class=n>b</span><span class=p>):</span>
+<a id=__codelineno-30-37 name=__codelineno-30-37></a><span class=k>def</span><span class=w> </span><span class=nf>decode_operator</span><span class=p>(</span><span class=n>b</span><span class=p>):</span>
 <a id=__codelineno-30-38 name=__codelineno-30-38></a>    <span class=n>length_type_id</span> <span class=o>=</span> <span class=n>b</span><span class=p>[:</span><span class=mi>1</span><span class=p>]</span>
 <a id=__codelineno-30-39 name=__codelineno-30-39></a>
 <a id=__codelineno-30-40 name=__codelineno-30-40></a>    <span class=k>if</span> <span class=n>length_type_id</span> <span class=o>==</span> <span class=s2>&quot;0&quot;</span><span class=p>:</span>
@@ -2536,7 +2536,7 @@
 <a id=__codelineno-30-54 name=__codelineno-30-54></a><span class=n>result</span> <span class=o>=</span> <span class=p>[]</span>
 <a id=__codelineno-30-55 name=__codelineno-30-55></a>
 <a id=__codelineno-30-56 name=__codelineno-30-56></a>
-<a id=__codelineno-30-57 name=__codelineno-30-57></a><span class=k>def</span> <span class=nf>decode</span><span class=p>(</span><span class=n>b</span><span class=p>):</span>
+<a id=__codelineno-30-57 name=__codelineno-30-57></a><span class=k>def</span><span class=w> </span><span class=nf>decode</span><span class=p>(</span><span class=n>b</span><span class=p>):</span>
 <a id=__codelineno-30-58 name=__codelineno-30-58></a>    <span class=k>while</span> <span class=n>b</span><span class=p>:</span>
 <a id=__codelineno-30-59 name=__codelineno-30-59></a>        <span class=k>if</span> <span class=nb>all</span><span class=p>(</span><span class=n>c</span> <span class=o>==</span> <span class=s2>&quot;0&quot;</span> <span class=k>for</span> <span class=n>c</span> <span class=ow>in</span> <span class=n>b</span><span class=p>):</span>
 <a id=__codelineno-30-60 name=__codelineno-30-60></a>            <span class=k>return</span>

@@ -10,8 +10,6 @@ nav:
   - Year 2015: 2015.md
 theme:
   name: material
-  favicon: https://cdn3.iconfinder.com/data/icons/fatcow/32/asterisk_yellow.png
-  logo: https://cdn3.iconfinder.com/data/icons/fatcow/32/asterisk_yellow.png
   font:
     text: Roboto
   palette:

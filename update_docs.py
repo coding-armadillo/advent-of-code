@@ -3,14 +3,8 @@ from pathlib import Path
 years = sorted([y for y in Path("src").iterdir() if y.is_dir()], reverse=True)
 
 with open("docs/index.md", "w", encoding="utf-8") as f:
-    star = '    <img src="https://cdn3.iconfinder.com/data/icons/fatcow/32/asterisk_yellow.png" alt="logo" height="32">'
-    stars = "\n".join([star] * 5)
     items = "\n".join([f"- [{y.stem}]({y.stem}.md)" for y in years])
     text = f"""
-<div align="center">
-    {stars}
-</div>
-
 # Advent of Code
 
 Solutions to [Advent of Code](https://adventofcode.com/)

@@ -1,6 +1,7 @@
 site_name: advent-of-code
 nav:
   - Home: index.md
+  - Year 2025: 2025.md
   - Year 2024: 2024.md
   - Year 2023: 2023.md
   - Year 2022: 2022.md
